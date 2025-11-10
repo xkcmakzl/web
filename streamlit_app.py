@@ -17,17 +17,9 @@ st.subheader("춘천고등학교")
 import streamlit as st
 import pandas as pd
 
-# --- 1. 페이지 기본 설정 ---
-st.set_page_config(
-    page_title="장우의 첫번쨰 페이지",
-    page_icon="🔮",
-    layout="wide"
-)
 
-# --- 2. 페이지 타이틀 ---
-st.title("Streamlit 마법 교실 🔮")
-st.subheader("춘천고등학교")
-st.markdown("---") # 구분선
+
+# 구분선
 
 # --- 3. 모든 커스텀 CSS ---
 # st.markdown 내부에 <style> 태그를 사용하여 CSS를 전역으로 주입합니다.
